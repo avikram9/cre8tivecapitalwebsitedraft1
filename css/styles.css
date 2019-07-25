@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Add some content in the center of the video/page */
+.content {
+    position: fixed;
+    top: 30%;
+    left: 25%;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.fontSize {
+    font-size: 100px
+}
+
+.pElem {
+    position: relative;
+    top: -50px;
+    left: 10%
+}
+
+nav {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    font-size: 25px
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float:left
+}
+
+li a {
+    text-decoration: none;
+    color: #f1f1f1
+}
+
+li a:hover {
+    border-bottom: 1px solid red
+}
+
+.divImage {
+    position: fixed;
+    left: 40%;
+    top: 7%
+}
+
+.aboutBgColor, .teamBgColor, .portfolioBgColor, .blogBgColor, .approachBgColor {
+    background-color: black
+}
+
+main {
+    color: #f1f1f1;
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    width: 50%
+}
+
+.displayNone {
+    display: none
+}
+
+.floatLeft {
+    float:left
+}
+
+span {
+    font-size: 20px
+}
+
+.divFilter {
+    position:relative;
+    left: -5%
+}
+
+.divMain {
+    color: #f1f1f1;
+    position: relative;
+    top: 20%;
+    left: 0%;
+    width: 50%
+}
+
+.divSize {
+    width: 250px;
+    height: 150px
+}
+
+.pPortfolio {
+    font-size: 50px;
+}
+
+.divPortfolioMain {
+    color: #f1f1f1;
+    position: relative;
+    top: 20%;
+    left: 0%;
+    width: 75%
+}
+
+#courtInnovations {
+    background-color: #BA9782;
+    cursor:pointer
+}
+
+#maizeAnalytics {
+    background-color: #5262AE;
+    cursor: pointer
+}
+
+#urbanei {
+    background-color: #477CB0;
+    cursor: pointer
+}
+
+#americanInno {
+    background-color: #7958ED;
+    cursor: pointer
+}
+
+#sellswipe {
+    background-color: #019E99;
+    cursor: pointer
+}
+
+#choreRelief {
+    background-color: #F05126;
+    cursor: pointer
+}
+
+#miwelltech {
+    background-color: #FC866A;
+    cursor: pointer
+}
+
+.span {
+    position:relative;
+    top: 43%;
+    left: 18%
+}
+
+#spanCourtInnovations, #spanMaizeAnalytics, #spanUrbanei, #spanAmericanInno,
+#spanSellSwipe, #spanChoreRelief, #spanMiwelltech {
+    cursor:pointer;
+    border-bottom: 1px solid red
+}
+
+#spanCourtInnovations:hover, #spanMaizeAnalytics:hover, #spanUrbanei:hover, #spanAmericanInno:hover,
+#spanSellSwipe:hover, #spanChoreRelief:hover, #spanMiwelltech:hover {
+        border-bottom: 1px solid black
+    }
+
+.divBlogMain {
+    color: #f1f1f1;
+    position: relative;
+    top: 20%;
+    left: 0%;
+    width: 75%
+}
+
+footer {
+    position: fixed;
+    color: #f1f1f1;
+    bottom: 0;
+    left: 20%
+}
+
+.divApproachMain {
+    color: #f1f1f1;
+    position: relative;
+    top: 20%;
+    left: 0%;
+    width: 75%
+}
+
+.divAppyMain {
+    color: #f1f1f1;
+    position: relative;
+    top: 20%;
+    left: 0%;
+    width: 75%
+}
